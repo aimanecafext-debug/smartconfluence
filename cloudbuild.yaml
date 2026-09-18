@@ -1,7 +1,7 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
   # L'étape de build utilise maintenant le nouveau nom de l'image
-  args: ['build', '-t', 'europe-west3-docker.pkg.dev/$PROJECT_ID/NOM-DU-DEPOT/smartconfluence:$COMMIT_SHA', '.']
+  args: ['build', '-t', 'europe-west3-docker.pkg.dev/$PROJECT_ID/apps/smartconfluence:$COMMIT_SHA', '.']
 
 # La section 'images' est mise à jour pour pousser vers Artifact Registry
 images:
