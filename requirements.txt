@@ -1,6 +1,2 @@
 streamlit
-PyPDF2
-google-cloud-secret-manager
-atlassian-python-api
-google-genai
-google-cloud-aiplatform
+
