@@ -1,2 +1,5 @@
 streamlit
-
+google-cloud-secret-manager
+atlassian-python-api
+google-genai
+google-cloud-aiplatform
