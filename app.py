@@ -405,8 +405,3 @@ if st.session_state.html_result:
                 if success:
                     st.success(f"✔ Nouvelle page '{final_new_title}' créée avec succès dans l'espace {final_space_key.strip()} !")
                     st.toast("Création réussie !", icon="🎉")
-st.set_page_config(layout="wide")
-st.title("✅ Test de déploiement réussi !")
-st.write("Si vous voyez ce message, cela signifie que :")
-st.info("1. Le `Dockerfile` est correct.\n2. Cloud Build a fonctionné.\n3. Cloud Run a bien démarré le conteneur.")
-st.balloons()
