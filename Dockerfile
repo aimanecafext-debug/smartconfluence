@@ -11,4 +11,4 @@ ENV PORT=8051
 
 EXPOSE 8051
 
-CMD ["streamlit", "run", "app.py", "--server.address=0.0.0.0", "--server.port=8080", "--server.headless=true"]
+CMD ["streamlit", "run", "app.py", "--server.address=0.0.0.0", "--server.port=8051", "--server.headless=true"]
